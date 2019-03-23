@@ -1,0 +1,3 @@
+RewriteEngine on
+
+RewriteRule lyrics/([0-9]+)/(.*)?$ main.php?id=$1&name=$2
