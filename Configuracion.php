@@ -1,7 +1,7 @@
 <?php
 session_start();
-$url_web = 'http://localhost/1';
-// $url_web = '//mp3k5a.club';
+// $url_web = 'http://localhost/1';
+$url_web = '//mp3k5a.club';
 $Site_name = 'MP3K5.CLUB';
 
 $pais = 'ar';
