@@ -77,6 +77,7 @@ $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
   <meta property="og:locale:alternate" content="en_US" />
   <meta property="og:site_name" content="<?php echo $Site_name; ?>" />
   <meta property="og:type" content="musician" />
+  <meta name="robots" content="noindex">
   <meta name="name" content="<?php echo $Site_name; ?>">
   <link rel="apple-touch-icon" sizes="57x57" href="<?php echo $url_web; ?>/icon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="<?php echo $url_web; ?>/icon/apple-icon-60x60.png">
