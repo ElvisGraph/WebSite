@@ -123,7 +123,7 @@ $data_letras = $Get_Letra[0];
     <div class="col-md-8" style="margin-top: 10px;padding-left:0px;">
           <ol class="breadcrumb noprint" itemscope="" itemtype="https://schema.org/BreadcrumbList">
       <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a itemprop="item" href="<?php echo $url_web; ?>"><span itemprop="name"><?php echo $Site_name; ?></span></a></li>
-      <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a itemprop="item" href="<?php echo $url_web; ?>/a/<?php echo cano(artista($NombreArtista)).'/'.$ArtistaID ?>"><span itemprop="name"><?php echo artista($NombreArtista); ?></span></a></li>
+      <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a  rel="nofollow" itemprop="item" href="<?php echo $url_web; ?>/a/<?php echo cano(artista($NombreArtista)).'/'.$ArtistaID ?>"><span itemprop="name"><?php echo artista($NombreArtista); ?></span></a></li>
       <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><span itemprop="name"><?php echo titulo($TituloCancion); ?> Letra</span></li>
     </ol>
       <div class="postmain">
