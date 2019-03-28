@@ -1,6 +1,7 @@
 <?php
 include 'Configuracion.php';
 include 'includes/funcion.php';
+
 // #########################################################################################################
 // Actualizar View
 $database->update("Json", ["View[+]" => 1], ["Slug" => $_GET['slug']]);

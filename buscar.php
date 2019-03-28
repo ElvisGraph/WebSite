@@ -3,10 +3,7 @@ include 'includes/funcion.php';
 include 'Configuracion.php';
 
 
-  $sql  = "SELECT * FROM Json WHERE NombreCompleto LIKE '%".$_GET['q']."%'";
-  $results = $database->query($sql)->fetchAll(PDO::FETCH_ASSOC);
-
-  $TituloBuscar = ucwords('$_GET['q']');
+  $TituloBuscar = ucwords($_GET['q']);
 ?>
 <!DOCTYPE html>
 <html lang="en">
